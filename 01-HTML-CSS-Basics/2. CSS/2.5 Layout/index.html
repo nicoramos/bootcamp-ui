@@ -1,0 +1,110 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<HTML>
+  <HEAD>
+    <TITLE>Examples of margins, padding, and borders</TITLE>
+    <STYLE type="text/css">
+        .header{
+          background-color: blue;
+          height: 100px;
+          width:1000px;
+        }
+        .container{
+          width:1000px;
+          height: 500px;
+        }
+        .nav{
+          padding-left: 0px;
+          width: 15%;
+          height: 100%;
+          background-color: green;
+          float: left;
+        }
+        .middle{
+          padding-right: 0px;
+          padding-left: 0px;
+          width:70%;
+          height:100%;
+          background-color:yellow;
+          float:left;
+        } 
+
+        .section{
+          height: 15%;
+          width: 100%;
+          background-color: white;
+        }
+        .headermiddle{
+          height: 15%;
+          width: 100%;
+          background-color: violet;
+        }
+        .article{
+          height: 50%;
+          width: 100%;
+          background-color: pink;
+        }
+        .footermiddle{
+          height: 20%;
+          width: 100%;
+          background-color: gray;
+        }
+
+        .aside{
+          background-color: orange;
+          width: 15%;
+          height: 100%;
+          float:left;
+          padding-left: 0px;
+        }
+
+        .footer{
+          background-color: magenta;
+          width: 1000px;
+          height: 150px;
+        }
+
+        *{
+          text-align: center;
+          vertical-align: center;
+          font-family: arial black;
+          font-size: 120%;
+        }
+
+      }
+    </STYLE>
+  </HEAD>
+  <BODY>
+  <div id="header" class="header">
+    <br>Header
+  </div>
+
+  <div id="container" class="container">
+    <div id="nav" class="nav">
+      <br><br><br>NAV
+    </div>
+    <div id="middle" class="middle">
+      <div id="section" class="section">
+          Section
+      </div>
+      <div id="headermiddle" class="headermiddle">
+        header
+      </div>
+      <div id="article" class="article">
+       <br> article
+      </div>
+      <div id="footermiddle" class="footermiddle">
+        footer
+      </div>
+    </div>
+    <div id="aside" class="aside">
+      <br><br><br> ASIDE
+    </div>
+  </div>
+  <div id="footer" class="footer">
+    <br> FOOTER
+  </div>
+  
+    
+  </BODY>
+  
+</HTML>
